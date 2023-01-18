@@ -1,0 +1,5 @@
+<?= sprintf(file_get_contents(
+    $_SERVER['DOCUMENT_ROOT'] . '/doc-openapi.yaml'),
+    $title ?? '',
+    $description ?? '',
+    $base_path ?? '');

@@ -1,0 +1,12 @@
+nbproject
+composer.lock
+.idea
+.buildpath
+.project
+.settings/
+.DS_Store
+vendor
+/tests/src/Dao/*.php.orig
+/src/Dao/*.php.orig
+/.phpintel/
+
